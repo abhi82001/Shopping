@@ -1,0 +1,24 @@
+<div class="background"></div>
+<br>
+<div class="nav"><mat-card>You are on Apani Dookan. You can shop here Apani Dookan for millions of products with fast local delivery.</mat-card></div>
+
+<div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="20px grid">
+      <div fxFlex="25%" *ngFor="let num of [1,2,3,4,5,6,7,8]">
+        <mat-card class="mat-elevation-z4" >
+          <mat-card-header>
+            <mat-card-title>Product {{num}}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src="./../assets/images/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg" style="padding: 20px;">
+          <mat-card-content>
+            <p>
+              Discount is running....
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button style="background-color: rgb(226, 222, 222);">Shop now..</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+    </div>
